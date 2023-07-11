@@ -25,6 +25,13 @@ const routerSettings: RouteRecordRaw[] = [
       const idNum = Number(routes.params.id);
       return { id: idNum };
     }
+  },
+  {
+    path: "/member/add",
+    name: "MemberAdd",
+    component: () => {
+      return import("@/views/member/MemberAdd.vue");
+    }
   }
 ];
 
