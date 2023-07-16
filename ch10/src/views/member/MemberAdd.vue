@@ -58,7 +58,7 @@ const onAdd = (): void => {
           <input type="number" id="addPoints" v-model.number="member.points" required />
         </dd>
         <dt>
-          <label for="addNote">備考</label>
+          <label for="addNote">備考&nbsp;</label>
         </dt>
         <dd>
           <textarea id="addNote" v-model="member.note"></textarea>
